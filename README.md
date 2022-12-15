@@ -9,7 +9,7 @@ hooks.Filters.ENV_PATCHES.add_item(
 ),
 ```
 
-По сути включает пайплайны, для авторизации апки lektorium_main
+По сути включает пайплайны, для авторизации через third_party(для апки lektorium_main)
 ```
 FEATURES['ENABLE_LEKTORIUM_MAIN'] = True
 ```
