@@ -1,5 +1,5 @@
 # lekt-plugins
-## Закоментируй если не работает этот кусок и пересобери проект:
+Закоментируй если не работает этот кусок и пересобери проект:
 ```
 hooks.Filters.ENV_PATCHES.add_item(
     (
@@ -9,7 +9,7 @@ hooks.Filters.ENV_PATCHES.add_item(
 ),
 ```
 
-## По сути включает пайплайны, для авторизации апки lektorium_main
+По сути включает пайплайны, для авторизации апки lektorium_main
 ```
 FEATURES['ENABLE_LEKTORIUM_MAIN'] = True
 ```
