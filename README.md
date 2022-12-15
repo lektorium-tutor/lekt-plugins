@@ -6,7 +6,7 @@
 cd $(lekt config printroot)
 cd ..
 git clone <название репо>
-lekt plugin list # проверяем что плагин есть в списке
+lekt plugins list # проверяем что плагин есть в списке
 lekt plugins enable <название нашего плагина>
 lekt config save
 ```
