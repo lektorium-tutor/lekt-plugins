@@ -23,6 +23,11 @@ hooks.Filters.ENV_PATCHES.add_items([
         "openedx-lms-common-settings",
         "MIDDLEWARE += ['lektorium_main.middleware.EducontAuthAlreadyAssociatedMiddleware']"
     ),
+    (
+        "openedx-lms-common-settings",
+        "MIDDLEWARE += ['lektorium_main.statistics.middleware.EducontStatisticsMiddleware']"
+    ),
+
     # (
     #     "openedx-dockerfile-post-python-requirements",
     #     """SOCIAL_AUTH_PIPELINE += ["lektorium_main.pipeline.profile.save_profile", ]"""
