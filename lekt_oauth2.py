@@ -17,6 +17,14 @@ hooks.Filters.ENV_PATCHES.add_items([
     ),
     (
         "openedx-lms-common-settings",
+        "FEATURES['ENABLE_AUTHN_MICROFRONTEND'] = True"
+    ),
+        (
+        "openedx-lms-common-settings",
+        "FEATURES['DISABLE_ENTERPRISE_LOGIN'] = True"
+    ),
+    (
+        "openedx-lms-common-settings",
         """AUTHENTICATION_BACKENDS += ["lektorium_main.oauth2.CokOAuth2", "social_core.backends.github.GithubOAuth2"]"""
     ),
     (
